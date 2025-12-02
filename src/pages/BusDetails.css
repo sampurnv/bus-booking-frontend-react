@@ -1,0 +1,78 @@
+.bus-details {
+  padding: 40px 0;
+  min-height: calc(100vh - 70px);
+}
+
+.details-card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.details-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.details-card h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.operator {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+}
+
+.bus-type {
+  font-size: 20px;
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.amenities-list h3 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.amenity-item {
+  background: #e8f4f8;
+  padding: 12px;
+  border-radius: 8px;
+  color: #667eea;
+  font-weight: 500;
+}
+
+.bus-specs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #f8f9fa;
+}
+
+.spec-item {
+  font-size: 16px;
+  color: #7f8c8d;
+}
+
+.spec-item strong {
+  color: #2c3e50;
+}
